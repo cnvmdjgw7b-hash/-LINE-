@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "patterns": [
+    {
+      "code": "E001",
+      "title": "歷史背景冒充本次事實",
+      "prevention": "historical_context 不得轉為 current_fact，除非本次來源再次確認"
+    },
+    {
+      "code": "E002",
+      "title": "建議冒充已完成處置",
+      "prevention": "proposed action 不得自動轉 completed；completed 必須有人工或來源證據"
+    },
+    {
+      "code": "E003",
+      "title": "未確認即寫已通知家屬",
+      "prevention": "沒有 completed action/evidence 時禁止完成式文字"
+    },
+    {
+      "code": "E004",
+      "title": "正式規則版本混用",
+      "prevention": "判斷前檢查 effective_from/effective_to/status"
+    },
+    {
+      "code": "E005",
+      "title": "案例取代正式規則",
+      "prevention": "案例只能供相似經驗檢索，不得提高為 formal rule"
+    },
+    {
+      "code": "E006",
+      "title": "高風險事件提供延誤選項",
+      "prevention": "急症、意識異常、暴力或立即危險先強制安全基線"
+    },
+    {
+      "code": "E007",
+      "title": "重複建立個案",
+      "prevention": "建立前比對 case_identifiers 唯一鍵"
+    },
+    {
+      "code": "E008",
+      "title": "忽略說話者情緒",
+      "prevention": "communication 先辨識 speaker_role/emotion_state，再決定第一反應"
+    }
+  ]
+}

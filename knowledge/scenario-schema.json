@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "永護寧居督實務情境",
+  "type": "object",
+  "required": [
+    "id",
+    "domain",
+    "title",
+    "event_types",
+    "risk_labels",
+    "safe_actions",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "event_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "emotion_states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "service_context": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "critical_unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "formal_rule_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "internal_rule_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safe_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unsafe_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reaction_strategies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "example_phrasing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quality_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "target": {
+    "minimum": 1200,
+    "preferred": 1500
+  },
+  "rule": "情境為可檢索經驗，不是固定答案；同一情境可多標籤、多人物狀態、多處理策略。",
+  "domains": [
+    {
+      "domain": "身體異常",
+      "target": 50
+    },
+    {
+      "domain": "急症",
+      "target": 45
+    },
+    {
+      "domain": "跌倒",
+      "target": 50
+    },
+    {
+      "domain": "失智／認知",
+      "target": 55
+    },
+    {
+      "domain": "情緒行為",
+      "target": 45
+    },
+    {
+      "domain": "拒絕服務",
+      "target": 40
+    },
+    {
+      "domain": "沐浴",
+      "target": 35
+    },
+    {
+      "domain": "飲食／備餐",
+      "target": 35
+    },
+    {
+      "domain": "排泄",
+      "target": 30
+    },
+    {
+      "domain": "外出／就醫",
+      "target": 45
+    },
+    {
+      "domain": "家務",
+      "target": 35
+    },
+    {
+      "domain": "服務內容爭議",
+      "target": 50
+    },
+    {
+      "domain": "BA碼／核定",
+      "target": 50
+    },
+    {
+      "domain": "時數／額度",
+      "target": 40
+    },
+    {
+      "domain": "排班",
+      "target": 50
+    },
+    {
+      "domain": "請假／代班",
+      "target": 45
+    },
+    {
+      "domain": "遲到／未到",
+      "target": 35
+    },
+    {
+      "domain": "打卡／紀錄",
+      "target": 50
+    },
+    {
+      "domain": "住院／出院",
+      "target": 40
+    },
+    {
+      "domain": "家屬衝突",
+      "target": 55
+    },
+    {
+      "domain": "客訴",
+      "target": 50
+    },
+    {
+      "domain": "財物",
+      "target": 45
+    },
+    {
+      "domain": "金錢",
+      "target": 40
+    },
+    {
+      "domain": "詐騙",
+      "target": 35
+    },
+    {
+      "domain": "隱私",
+      "target": 35
+    },
+    {
+      "domain": "性騷擾",
+      "target": 35
+    },
+    {
+      "domain": "暴力／威脅",
+      "target": 40
+    },
+    {
+      "domain": "居服員安全",
+      "target": 45
+    },
+    {
+      "domain": "照顧負荷",
+      "target": 40
+    },
+    {
+      "domain": "個管／跨專業",
+      "target": 40
+    },
+    {
+      "domain": "照會／異動",
+      "target": 50
+    },
+    {
+      "domain": "特殊未知事件",
+      "target": 50
+    }
+  ],
+  "required_dimensions": [
+    "事件",
+    "人物",
+    "情緒",
+    "服務脈絡",
+    "風險",
+    "已知事實",
+    "關鍵未知",
+    "安全處置",
+    "禁止處置",
+    "反應策略"
+  ],
+  "quality_gates": [
+    "不得把案例當法規",
+    "不得虛構已完成處置",
+    "高風險不得提供延誤選項",
+    "同義案例去重",
+    "案例須可拆為reasoning atoms"
+  ]
+}

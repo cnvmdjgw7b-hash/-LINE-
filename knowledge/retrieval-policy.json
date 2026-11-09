@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "precedence": [
+    "formal_government",
+    "yonghuning_internal_active",
+    "approved_practice",
+    "scenario_examples"
+  ],
+  "retrieval": [
+    "先以case_id取得個案目前有效背景與服務",
+    "以event facts建立本次事實集合",
+    "檢索有效正式規則並排除失效版本",
+    "依事件標籤、risk labels、reasoning atoms檢索相似案例",
+    "歷史事件僅作背景與重複風險偵測，不自動成為本次事實",
+    "輸出候選處理方向前先套用risk matrix安全基線"
+  ],
+  "unknown_case": [
+    "拆解人物關係、要求行為、服務邊界、安全、財物金錢、隱私、法律/契約、情緒、急迫性",
+    "組合reasoning atoms搜尋相似經驗",
+    "若仍缺少會改變處置的關鍵事實，只問一個最高資訊價值問題",
+    "若為立即高風險，不等待完整資訊才啟動安全基線"
+  ]
+}

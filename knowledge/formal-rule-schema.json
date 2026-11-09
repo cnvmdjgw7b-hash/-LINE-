@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "永護寧正式知識規則",
+  "type": "object",
+  "required": [
+    "id",
+    "rule_name",
+    "rule_type",
+    "source_name",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "rule_name": {
+      "type": "string"
+    },
+    "rule_type": {
+      "enum": [
+        "government",
+        "contract",
+        "internal",
+        "procedure",
+        "service_code"
+      ]
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "source_uri": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ai_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_from": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_to": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "replaces_rule_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "active",
+        "expired",
+        "pending_verification"
+      ]
+    }
+  }
+}

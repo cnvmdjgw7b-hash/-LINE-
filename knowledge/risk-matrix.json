@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "levels": [
+    {
+      "level": "critical",
+      "triggers": [
+        "意識改變",
+        "呼吸異常",
+        "大量出血",
+        "立即暴力威脅",
+        "疑似生命危險"
+      ],
+      "baseline": "立即安全處置優先，不提供延誤或觀望為等價選項",
+      "human_review": true
+    },
+    {
+      "level": "high",
+      "triggers": [
+        "跌倒疑似受傷",
+        "反覆軟腳",
+        "走失",
+        "性騷擾",
+        "財物重大爭議",
+        "疑似詐騙",
+        "照顧者失控"
+      ],
+      "baseline": "先保護人身與證據，再由督導接手評估",
+      "human_review": true
+    },
+    {
+      "level": "medium",
+      "triggers": [
+        "拒絕服務",
+        "家屬衝突",
+        "服務內容爭議",
+        "臨時異動",
+        "情緒升高"
+      ],
+      "baseline": "釐清事實、服務邊界與人物需求，提供2至4個合理處理方向",
+      "human_review": false
+    },
+    {
+      "level": "low",
+      "triggers": [
+        "一般詢問",
+        "非急迫排班協調",
+        "一般服務回饋"
+      ],
+      "baseline": "直接處理並保留必要紀錄",
+      "human_review": false
+    }
+  ]
+}

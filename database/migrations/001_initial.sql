@@ -1,0 +1,4 @@
+-- Migration 001
+-- canonical source: ../schema.sql
+-- 初始資料模型版本 1.0.0
+-- 實際部署時應由 migration runner 執行 database/schema.sql。

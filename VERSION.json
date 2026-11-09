@@ -1,0 +1,9 @@
+{
+  "database_schema": "1.0.0",
+  "knowledge_base": "1.1.0",
+  "scenario_seed_count": 10,
+  "target_scenario_count": "1200-1500",
+  "updated_at": "2026-11-09",
+  "stage": "database-strengthening",
+  "ui_status": "frozen"
+}

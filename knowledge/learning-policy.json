@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "feedback_types": [
+    "accepted",
+    "edited",
+    "rejected",
+    "unsafe_blocked",
+    "rule_corrected"
+  ],
+  "learnable": [
+    "相似情境排序",
+    "主管偏好的合理反應方向",
+    "常用溝通長度",
+    "不同對象的表達方式"
+  ],
+  "not_learnable_as_preference": [
+    "生命安全基線",
+    "正式法規",
+    "申報真實性",
+    "禁止偽造完成事項"
+  ],
+  "promotion": {
+    "case_to_pattern": "需去識別、重複出現或經主管核准後才能升為approved practice",
+    "pattern_to_rule": "禁止自動升級；正式規則必須有正式來源與版本"
+  }
+}

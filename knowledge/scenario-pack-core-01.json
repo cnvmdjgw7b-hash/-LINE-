@@ -1,0 +1,4177 @@
+{
+  "version": "1.0",
+  "count": 90,
+  "generated_for": "永護寧居督AI實務檢索種子",
+  "scenarios": [
+    {
+      "id": "S0101",
+      "domain": "身體異常",
+      "title": "頭暈",
+      "event_types": [
+        "身體異常",
+        "頭暈"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：頭暈"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0102",
+      "domain": "身體異常",
+      "title": "發燒",
+      "event_types": [
+        "身體異常",
+        "發燒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：發燒"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0103",
+      "domain": "身體異常",
+      "title": "疼痛加劇",
+      "event_types": [
+        "身體異常",
+        "疼痛加劇"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：疼痛加劇"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0104",
+      "domain": "身體異常",
+      "title": "食慾下降",
+      "event_types": [
+        "身體異常",
+        "食慾下降"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：食慾下降"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0105",
+      "domain": "身體異常",
+      "title": "嘔吐",
+      "event_types": [
+        "身體異常",
+        "嘔吐"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：嘔吐"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0106",
+      "domain": "身體異常",
+      "title": "腹瀉",
+      "event_types": [
+        "身體異常",
+        "腹瀉"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：腹瀉"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0107",
+      "domain": "身體異常",
+      "title": "水腫",
+      "event_types": [
+        "身體異常",
+        "水腫"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：水腫"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0108",
+      "domain": "身體異常",
+      "title": "喘",
+      "event_types": [
+        "身體異常",
+        "喘"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：喘"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0109",
+      "domain": "身體異常",
+      "title": "血壓異常",
+      "event_types": [
+        "身體異常",
+        "血壓異常"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：血壓異常"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0110",
+      "domain": "身體異常",
+      "title": "精神變差",
+      "event_types": [
+        "身體異常",
+        "精神變差"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "身體變化",
+        "健康風險"
+      ],
+      "known_facts": [
+        "本次回報：精神變差"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0111",
+      "domain": "跌倒",
+      "title": "站起軟腳",
+      "event_types": [
+        "跌倒",
+        "站起軟腳"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：站起軟腳"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0112",
+      "domain": "跌倒",
+      "title": "浴室滑倒",
+      "event_types": [
+        "跌倒",
+        "浴室滑倒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：浴室滑倒"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0113",
+      "domain": "跌倒",
+      "title": "床邊跌落",
+      "event_types": [
+        "跌倒",
+        "床邊跌落"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：床邊跌落"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0114",
+      "domain": "跌倒",
+      "title": "外出絆倒",
+      "event_types": [
+        "跌倒",
+        "外出絆倒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：外出絆倒"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0115",
+      "domain": "跌倒",
+      "title": "近期反覆跌倒",
+      "event_types": [
+        "跌倒",
+        "近期反覆跌倒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：近期反覆跌倒"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0116",
+      "domain": "跌倒",
+      "title": "移位差點跌倒",
+      "event_types": [
+        "跌倒",
+        "移位差點跌倒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：移位差點跌倒"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0117",
+      "domain": "跌倒",
+      "title": "夜間起身不穩",
+      "event_types": [
+        "跌倒",
+        "夜間起身不穩"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：夜間起身不穩"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0118",
+      "domain": "跌倒",
+      "title": "輔具未使用",
+      "event_types": [
+        "跌倒",
+        "輔具未使用"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：輔具未使用"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0119",
+      "domain": "跌倒",
+      "title": "跌倒後喊痛",
+      "event_types": [
+        "跌倒",
+        "跌倒後喊痛"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：跌倒後喊痛"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0120",
+      "domain": "跌倒",
+      "title": "跌倒後無明顯外傷",
+      "event_types": [
+        "跌倒",
+        "跌倒後無明顯外傷"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "跌倒",
+        "行動安全"
+      ],
+      "known_facts": [
+        "本次回報：跌倒後無明顯外傷"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0121",
+      "domain": "失智／認知",
+      "title": "重複問話",
+      "event_types": [
+        "失智／認知",
+        "重複問話"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：重複問話"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0122",
+      "domain": "失智／認知",
+      "title": "指控偷錢",
+      "event_types": [
+        "失智／認知",
+        "指控偷錢"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：指控偷錢"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0123",
+      "domain": "失智／認知",
+      "title": "認錯人",
+      "event_types": [
+        "失智／認知",
+        "認錯人"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：認錯人"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0124",
+      "domain": "失智／認知",
+      "title": "夜間遊走",
+      "event_types": [
+        "失智／認知",
+        "夜間遊走"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：夜間遊走"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0125",
+      "domain": "失智／認知",
+      "title": "拒絕陌生居服員",
+      "event_types": [
+        "失智／認知",
+        "拒絕陌生居服員"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：拒絕陌生居服員"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0126",
+      "domain": "失智／認知",
+      "title": "藏東西後忘記",
+      "event_types": [
+        "失智／認知",
+        "藏東西後忘記"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：藏東西後忘記"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0127",
+      "domain": "失智／認知",
+      "title": "妄想家人害他",
+      "event_types": [
+        "失智／認知",
+        "妄想家人害他"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：妄想家人害他"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0128",
+      "domain": "失智／認知",
+      "title": "情緒突然激動",
+      "event_types": [
+        "失智／認知",
+        "情緒突然激動"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：情緒突然激動"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0129",
+      "domain": "失智／認知",
+      "title": "堅持外出",
+      "event_types": [
+        "失智／認知",
+        "堅持外出"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：堅持外出"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0130",
+      "domain": "失智／認知",
+      "title": "忘記已吃飯",
+      "event_types": [
+        "失智／認知",
+        "忘記已吃飯"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "認知障礙",
+        "行為風險"
+      ],
+      "known_facts": [
+        "本次回報：忘記已吃飯"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0131",
+      "domain": "拒絕服務",
+      "title": "拒絕洗澡",
+      "event_types": [
+        "拒絕服務",
+        "拒絕洗澡"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕洗澡"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0132",
+      "domain": "拒絕服務",
+      "title": "拒絕吃飯",
+      "event_types": [
+        "拒絕服務",
+        "拒絕吃飯"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕吃飯"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0133",
+      "domain": "拒絕服務",
+      "title": "拒絕換尿布",
+      "event_types": [
+        "拒絕服務",
+        "拒絕換尿布"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕換尿布"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0134",
+      "domain": "拒絕服務",
+      "title": "拒絕服藥提醒",
+      "event_types": [
+        "拒絕服務",
+        "拒絕服藥提醒"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕服藥提醒"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0135",
+      "domain": "拒絕服務",
+      "title": "拒絕外出",
+      "event_types": [
+        "拒絕服務",
+        "拒絕外出"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕外出"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0136",
+      "domain": "拒絕服務",
+      "title": "拒絕新居服員",
+      "event_types": [
+        "拒絕服務",
+        "拒絕新居服員"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕新居服員"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0137",
+      "domain": "拒絕服務",
+      "title": "拒絕量測",
+      "event_types": [
+        "拒絕服務",
+        "拒絕量測"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕量測"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0138",
+      "domain": "拒絕服務",
+      "title": "拒絕家務協助",
+      "event_types": [
+        "拒絕服務",
+        "拒絕家務協助"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：拒絕家務協助"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0139",
+      "domain": "拒絕服務",
+      "title": "臨時取消",
+      "event_types": [
+        "拒絕服務",
+        "臨時取消"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：臨時取消"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0140",
+      "domain": "拒絕服務",
+      "title": "家屬要求強迫服務",
+      "event_types": [
+        "拒絕服務",
+        "家屬要求強迫服務"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務拒絕",
+        "自主意願"
+      ],
+      "known_facts": [
+        "本次回報：家屬要求強迫服務"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0141",
+      "domain": "家屬衝突",
+      "title": "家屬責怪居服員",
+      "event_types": [
+        "家屬衝突",
+        "家屬責怪居服員"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬責怪居服員"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0142",
+      "domain": "家屬衝突",
+      "title": "家屬彼此意見不同",
+      "event_types": [
+        "家屬衝突",
+        "家屬彼此意見不同"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬彼此意見不同"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0143",
+      "domain": "家屬衝突",
+      "title": "主要照顧者疲累",
+      "event_types": [
+        "家屬衝突",
+        "主要照顧者疲累"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：主要照顧者疲累"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0144",
+      "domain": "家屬衝突",
+      "title": "家屬要求超出服務",
+      "event_types": [
+        "家屬衝突",
+        "家屬要求超出服務"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬要求超出服務"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0145",
+      "domain": "家屬衝突",
+      "title": "家屬情緒激動",
+      "event_types": [
+        "家屬衝突",
+        "家屬情緒激動"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬情緒激動"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0146",
+      "domain": "家屬衝突",
+      "title": "個案與兒子口角",
+      "event_types": [
+        "家屬衝突",
+        "個案與兒子口角"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：個案與兒子口角"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0147",
+      "domain": "家屬衝突",
+      "title": "家屬不接受代班",
+      "event_types": [
+        "家屬衝突",
+        "家屬不接受代班"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬不接受代班"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0148",
+      "domain": "家屬衝突",
+      "title": "家屬質疑服務品質",
+      "event_types": [
+        "家屬衝突",
+        "家屬質疑服務品質"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬質疑服務品質"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0149",
+      "domain": "家屬衝突",
+      "title": "家屬要求指定人員",
+      "event_types": [
+        "家屬衝突",
+        "家屬要求指定人員"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬要求指定人員"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0150",
+      "domain": "家屬衝突",
+      "title": "家屬要求隱瞞事件",
+      "event_types": [
+        "家屬衝突",
+        "家屬要求隱瞞事件"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "家庭衝突",
+        "溝通風險"
+      ],
+      "known_facts": [
+        "本次回報：家屬要求隱瞞事件"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0151",
+      "domain": "排班",
+      "title": "臨時請假",
+      "event_types": [
+        "排班",
+        "臨時請假"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：臨時請假"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0152",
+      "domain": "排班",
+      "title": "無人代班",
+      "event_types": [
+        "排班",
+        "無人代班"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：無人代班"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0153",
+      "domain": "排班",
+      "title": "案家不接受代班",
+      "event_types": [
+        "排班",
+        "案家不接受代班"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：案家不接受代班"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0154",
+      "domain": "排班",
+      "title": "居服員遲到",
+      "event_types": [
+        "排班",
+        "居服員遲到"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：居服員遲到"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0155",
+      "domain": "排班",
+      "title": "居服員未到",
+      "event_types": [
+        "排班",
+        "居服員未到"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：居服員未到"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0156",
+      "domain": "排班",
+      "title": "服務時間重疊",
+      "event_types": [
+        "排班",
+        "服務時間重疊"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：服務時間重疊"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0157",
+      "domain": "排班",
+      "title": "跨區排班困難",
+      "event_types": [
+        "排班",
+        "跨區排班困難"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：跨區排班困難"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0158",
+      "domain": "排班",
+      "title": "固定人員請長假",
+      "event_types": [
+        "排班",
+        "固定人員請長假"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：固定人員請長假"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0159",
+      "domain": "排班",
+      "title": "新案無適合人力",
+      "event_types": [
+        "排班",
+        "新案無適合人力"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：新案無適合人力"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0160",
+      "domain": "排班",
+      "title": "臨時要求改時段",
+      "event_types": [
+        "排班",
+        "臨時要求改時段"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務中斷",
+        "排班風險"
+      ],
+      "known_facts": [
+        "本次回報：臨時要求改時段"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0161",
+      "domain": "財物",
+      "title": "指控偷錢",
+      "event_types": [
+        "財物",
+        "指控偷錢"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：指控偷錢"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0162",
+      "domain": "財物",
+      "title": "要求代領現金",
+      "event_types": [
+        "財物",
+        "要求代領現金"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求代領現金"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0163",
+      "domain": "財物",
+      "title": "要求保管存摺",
+      "event_types": [
+        "財物",
+        "要求保管存摺"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求保管存摺"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0164",
+      "domain": "財物",
+      "title": "要求代售金飾",
+      "event_types": [
+        "財物",
+        "要求代售金飾"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求代售金飾"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0165",
+      "domain": "財物",
+      "title": "要求代刷卡",
+      "event_types": [
+        "財物",
+        "要求代刷卡"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求代刷卡"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0166",
+      "domain": "財物",
+      "title": "家中財物遺失",
+      "event_types": [
+        "財物",
+        "家中財物遺失"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：家中財物遺失"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0167",
+      "domain": "財物",
+      "title": "要求代收包裹款",
+      "event_types": [
+        "財物",
+        "要求代收包裹款"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求代收包裹款"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0168",
+      "domain": "財物",
+      "title": "要求借錢",
+      "event_types": [
+        "財物",
+        "要求借錢"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求借錢"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0169",
+      "domain": "財物",
+      "title": "送高價禮物給居服員",
+      "event_types": [
+        "財物",
+        "送高價禮物給居服員"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：送高價禮物給居服員"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0170",
+      "domain": "財物",
+      "title": "要求居服員代管鑰匙",
+      "event_types": [
+        "財物",
+        "要求居服員代管鑰匙"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "財物",
+        "責任歸屬"
+      ],
+      "known_facts": [
+        "本次回報：要求居服員代管鑰匙"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0171",
+      "domain": "打卡／紀錄",
+      "title": "打卡與服務時間不同",
+      "event_types": [
+        "打卡／紀錄",
+        "打卡與服務時間不同"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：打卡與服務時間不同"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0172",
+      "domain": "打卡／紀錄",
+      "title": "漏打卡",
+      "event_types": [
+        "打卡／紀錄",
+        "漏打卡"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：漏打卡"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0173",
+      "domain": "打卡／紀錄",
+      "title": "錯誤簽退地點",
+      "event_types": [
+        "打卡／紀錄",
+        "錯誤簽退地點"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：錯誤簽退地點"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0174",
+      "domain": "打卡／紀錄",
+      "title": "服務項目與紀錄不同",
+      "event_types": [
+        "打卡／紀錄",
+        "服務項目與紀錄不同"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：服務項目與紀錄不同"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0175",
+      "domain": "打卡／紀錄",
+      "title": "排班與實際時間不同",
+      "event_types": [
+        "打卡／紀錄",
+        "排班與實際時間不同"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：排班與實際時間不同"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0176",
+      "domain": "打卡／紀錄",
+      "title": "同時段兩個服務",
+      "event_types": [
+        "打卡／紀錄",
+        "同時段兩個服務"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：同時段兩個服務"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0177",
+      "domain": "打卡／紀錄",
+      "title": "紀錄補登",
+      "event_types": [
+        "打卡／紀錄",
+        "紀錄補登"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：紀錄補登"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0178",
+      "domain": "打卡／紀錄",
+      "title": "家屬代簽疑義",
+      "event_types": [
+        "打卡／紀錄",
+        "家屬代簽疑義"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：家屬代簽疑義"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0179",
+      "domain": "打卡／紀錄",
+      "title": "服務未做卻誤勾",
+      "event_types": [
+        "打卡／紀錄",
+        "服務未做卻誤勾"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：服務未做卻誤勾"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0180",
+      "domain": "打卡／紀錄",
+      "title": "照片時間與紀錄不符",
+      "event_types": [
+        "打卡／紀錄",
+        "照片時間與紀錄不符"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "申報",
+        "紀錄真實性"
+      ],
+      "known_facts": [
+        "本次回報：照片時間與紀錄不符"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0181",
+      "domain": "住院／出院",
+      "title": "當日辦理住院",
+      "event_types": [
+        "住院／出院",
+        "當日辦理住院"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：當日辦理住院"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0182",
+      "domain": "住院／出院",
+      "title": "住院期間服務暫停",
+      "event_types": [
+        "住院／出院",
+        "住院期間服務暫停"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：住院期間服務暫停"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0183",
+      "domain": "住院／出院",
+      "title": "臨時急診後住院",
+      "event_types": [
+        "住院／出院",
+        "臨時急診後住院"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：臨時急診後住院"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0184",
+      "domain": "住院／出院",
+      "title": "出院恢復服務",
+      "event_types": [
+        "住院／出院",
+        "出院恢復服務"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：出院恢復服務"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0185",
+      "domain": "住院／出院",
+      "title": "出院後功能下降",
+      "event_types": [
+        "住院／出院",
+        "出院後功能下降"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：出院後功能下降"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0186",
+      "domain": "住院／出院",
+      "title": "出院後增加照顧需求",
+      "event_types": [
+        "住院／出院",
+        "出院後增加照顧需求"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：出院後增加照顧需求"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0187",
+      "domain": "住院／出院",
+      "title": "住院日期不明",
+      "event_types": [
+        "住院／出院",
+        "住院日期不明"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：住院日期不明"
+      ],
+      "critical_unknowns": [
+        "是否有人身安全或立即風險",
+        "是否已有可驗證紀錄或證據"
+      ],
+      "safe_actions": [
+        "先確認人身安全與當下狀態",
+        "保留原始事實與來源",
+        "由督導依有效規則與個案背景判斷後續"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "安全優先",
+        "主管接手",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0188",
+      "domain": "住院／出院",
+      "title": "家屬晚回報住院",
+      "event_types": [
+        "住院／出院",
+        "家屬晚回報住院"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：家屬晚回報住院"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0189",
+      "domain": "住院／出院",
+      "title": "出院日期變更",
+      "event_types": [
+        "住院／出院",
+        "出院日期變更"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：出院日期變更"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "S0190",
+      "domain": "住院／出院",
+      "title": "住院當日已有部分服務",
+      "event_types": [
+        "住院／出院",
+        "住院當日已有部分服務"
+      ],
+      "actors": [
+        "個案",
+        "居服員",
+        "督導",
+        "家屬"
+      ],
+      "emotion_states": [
+        "一般回報",
+        "擔心"
+      ],
+      "risk_labels": [
+        "服務狀態",
+        "申報"
+      ],
+      "known_facts": [
+        "本次回報：住院當日已有部分服務"
+      ],
+      "critical_unknowns": [
+        "事件發生時間與目前狀態"
+      ],
+      "safe_actions": [
+        "確認本次事實",
+        "比對個案目前服務與近期事件",
+        "依實際處理結果留下紀錄"
+      ],
+      "unsafe_actions": [
+        "未確認即定性",
+        "把AI建議寫成已完成處置",
+        "把歷史背景冒充本次事實"
+      ],
+      "reaction_strategies": [
+        "先釐清",
+        "紀錄與證據"
+      ],
+      "quality_score": 0.75,
+      "version": "1.0",
+      "status": "seed"
+    }
+  ]
+}

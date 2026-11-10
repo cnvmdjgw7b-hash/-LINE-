@@ -60,7 +60,7 @@
     <div class="step-title"><span class="step-no">02</span><div><h2 id="step2">個案實際狀況</h2><p>只記本次已確認的事實；前次資料不會自動帶入</p></div></div>
     <div class="question-meta"><span>請依本次訪視內容逐項檢視</span><span class="counter"><b id="selectedCount">0</b> 項已選</span></div>
     <div class="step-actions"><button id="clearFacts">清除所有勾選</button><button id="openAll">展開／收合</button></div>
-    <div class="library-info"><b>句庫版本：</b>既有知識分類 1.0｜32 類；素材 1,420 筆為待審草案，非正式發布句庫。<br><b>個人句庫：</b>未連接（此頁不讀取外部或私有句庫）。</div>
+    <div class="library-info"><b>句庫版本：</b>知識庫：32 類；素材 1,420 筆為待審草案。\n本頁 17 項目錄參考 V48 研發展示；與正式模組的對應尚待主檔核定。<br><b>個人句庫：</b>未連接（此頁不讀取外部或私有句庫）。</div>
     <div id="accordionRoot"></div>
     <div class="extra">
       <h3>整體補充說明</h3>
@@ -110,7 +110,7 @@
 <script>
 "use strict";
 const $=id=>document.getElementById(id);
-const categories=["身體狀況","睡眠","飲食","認知／情緒","日常生活","服務執行","個案反應","家屬支持","跌倒風險","環境安全","外出／就醫","照會／異動","特殊事件"];
+const categories=["身體與疾病","行動與跌倒","飲食營養","沐浴清潔","認知情緒","睡眠與作息","日常自理","居家環境","家庭支持","服務項目","服務執行","人員排班","個案回饋","家屬回饋","健康變化","通報與資源","追蹤與處理"];
 const state={visitType:"家訪",open:0,selected:new Map(),drafts:[],versions:[],baseText:"",text:"",rephrase:0,allOpen:false};
 const today=new Date();$("visitDate").value=[today.getFullYear(),String(today.getMonth()+1).padStart(2,"0"),String(today.getDate()).padStart(2,"0")].join("-");
 function toast(s){const el=$("toast");el.textContent=s;el.classList.add("show");clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove("show"),2600)}

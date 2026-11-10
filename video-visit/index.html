@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f9fb">
+<title>家電訪紀錄撰寫｜影片操作預覽</title>
+<style>
+:root{--navy:#173b50;--blue:#2b718d;--blue2:#e9f4f8;--ink:#263d4b;--muted:#657986;--line:#d8e3e9;--bg:#f4f7f9;--paper:#fff;--warm:#fff6e7;--orange:#986421;--red:#a94646;--green:#24674e;--r:15px}
+*{box-sizing:border-box}html{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;color:var(--ink);font-size:16px;scroll-behavior:smooth}body{margin:0;background:var(--bg);line-height:1.55}button,input,select,textarea{font:inherit}button{touch-action:manipulation;cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #dfa54e;outline-offset:2px}header{background:#fff;border-bottom:1px solid var(--line);padding:12px max(15px,env(safe-area-inset-left));position:sticky;top:0;z-index:4}.headrow{max-width:760px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}.brand{display:flex;align-items:center;gap:9px;font-weight:800;color:var(--navy)}.brandmark{width:35px;height:35px;border-radius:11px;background:var(--blue2);display:grid;place-items:center;color:var(--blue);font-size:20px}.brand small{display:block;color:var(--muted);font-weight:500;font-size:11px}.head-actions{display:flex;gap:7px}.linkbtn{border:0;background:transparent;color:var(--blue);padding:9px 6px;font-weight:700}.head-actions .linkbtn:last-child{color:var(--red)}main{max-width:760px;margin:auto;padding:16px 14px calc(86px + env(safe-area-inset-bottom))}.eyebrow{font-size:11px;letter-spacing:.08em;color:var(--blue);font-weight:800}.hero{padding:4px 2px 13px}.hero h1{font-size:21px;line-height:1.35;margin:3px 0 4px;color:var(--navy)}.hero p{margin:0;color:var(--muted);font-size:13px}.login-state{margin-top:9px;display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px}.dot{width:8px;height:8px;border-radius:50%;background:#d99b44;display:inline-block}.notice{border:1px solid #d8e7ed;background:#eef7fa;border-radius:12px;padding:12px 13px;margin:12px 0 16px;font-size:13px;color:#3b5968}.notice strong{display:block;color:var(--navy);margin-bottom:3px}.card{border:1px solid var(--line);border-radius:var(--r);background:var(--paper);padding:15px;margin:12px 0;box-shadow:0 3px 14px #193b4a0a}.step-title{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px}.step-no{border-radius:50%;width:30px;height:30px;flex:none;display:grid;place-items:center;background:#e5f1f5;color:#1c627d;font-weight:800}.step-title h2{font-size:17px;color:var(--navy);margin:0}.step-title p{font-size:12px;color:var(--muted);margin:2px 0 0}.field{margin:11px 0}.field label,.label{display:block;font-weight:700;font-size:13px;margin:0 0 6px}.field input,.field select,.field textarea,.extra textarea,.record-editor{width:100%;border:1px solid #b9c8d0;background:white;border-radius:9px;padding:11px 12px;min-height:46px;color:var(--ink)}.field textarea,.extra textarea,.record-editor{line-height:1.7;resize:vertical}.hint{display:block;font-size:11px;color:var(--muted);margin-top:5px}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btnrow{display:flex;gap:8px;flex-wrap:wrap}.btn{min-height:44px;border:1px solid var(--blue);border-radius:9px;padding:9px 13px;background:var(--blue);color:white;font-size:13px;font-weight:750}.btn.secondary{background:white;color:var(--blue)}.btn.soft{background:var(--blue2);border-color:#c5dce5;color:#24586d}.btn.danger{background:#fff;border-color:#eccaca;color:var(--red)}.btn:disabled{opacity:.52;cursor:not-allowed}.case-tools{background:#f7fafb;border-radius:11px;padding:11px;margin-top:9px}.case-tools .btn{min-height:39px;padding:7px 10px;font-size:12px}.case-count{font-size:12px;color:var(--muted);margin:9px 0 0}.case-count b{color:var(--navy)}.segmented{display:grid;grid-template-columns:1fr 1fr;gap:7px}.segmented button{min-height:44px;border-radius:10px;border:1px solid #c5d5dc;background:#fff;color:var(--ink);font-weight:750}.segmented button[aria-pressed=true]{background:#eaf5f8;border:2px solid #71a8bb;color:#205870}.visit-target{display:flex;flex-wrap:wrap;gap:7px}.target{position:relative}.target input{position:absolute;opacity:0}.target span{display:inline-flex;min-height:39px;align-items:center;padding:7px 11px;border-radius:999px;background:#f7f9fa;border:1px solid var(--line);font-size:12px}.target input:checked+span{background:#e8f3f7;border-color:#78aabd;color:#205b73;font-weight:750}.question-meta{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:8px 0;color:var(--muted);font-size:12px}.counter{font-size:12px;color:var(--blue);font-weight:800}.accordion{border:1px solid var(--line);border-radius:11px;overflow:hidden;margin:8px 0;background:#fff}.accordion-head{width:100%;display:flex;align-items:center;justify-content:space-between;text-align:left;gap:8px;border:0;background:#f8fbfc;padding:12px;color:var(--ink);min-height:47px}.accordion-head strong{font-size:13px}.accordion-head small{display:block;color:var(--muted);font-size:10px;font-weight:500}.arrow{color:#67808c;transition:transform .15s}.accordion.open .arrow{transform:rotate(180deg)}.accordion-body{display:none;padding:12px;border-top:1px solid var(--line)}.accordion.open .accordion-body{display:block}.facts-options{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:10px}.fact-option{border:1px solid #c8d7de;border-radius:999px;background:#fff;color:#385867;padding:7px 10px;min-height:36px;font-size:12px}.fact-option[aria-pressed=true]{background:#e7f3f6;border-color:#6e9fb0;color:#1d5a72;font-weight:750}.small-note{font-size:11px;color:var(--muted);margin:0 0 8px}.extra{border:1px solid #e1e8ec;background:#f9fbfc;border-radius:12px;padding:13px;margin:13px 0}.extra h3{font-size:15px;margin:0 0 8px;color:var(--navy)}.extra textarea{min-height:92px}.countline{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--muted);margin-top:5px}.warning{border-left:4px solid #d4a052;background:var(--warm);color:#74531c;border-radius:8px;padding:10px 11px;margin:10px 0;font-size:12px}.library-info{background:#f5f8fa;border-radius:9px;padding:10px;font-size:11px;color:var(--muted);line-height:1.6;margin:10px 0}.library-info b{color:#435e6b}.step-actions{display:flex;justify-content:space-between;align-items:center;margin:7px 0 12px}.step-actions button{border:0;background:none;color:var(--blue);font-size:12px;font-weight:700;padding:6px}.style-row{display:grid;grid-template-columns:1fr 1fr;gap:9px}.record-editor{min-height:180px;margin:8px 0}.record-status{border-radius:9px;padding:10px;font-size:12px;background:#f3f6f7;color:var(--muted);margin:8px 0}.record-status.ok{background:#eff8f2;color:var(--green)}.record-status.warn{background:var(--warm);color:#79551c}.consent{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:#405c69;margin:12px 0}.consent input{margin:3px 0 0;min-width:18px;min-height:18px}.login-dialog{border:0;border-radius:17px;width:min(440px,calc(100% - 28px));padding:0;box-shadow:0 18px 60px #102c3d42}.login-dialog::backdrop{background:#102c3d88}.dialog-inner{padding:20px}.dialog-title{display:flex;justify-content:space-between;align-items:center}.dialog-title h2{font-size:18px;margin:0;color:var(--navy)}.close{border:0;background:#edf3f5;border-radius:50%;width:36px;height:36px}.auth-tabs{display:grid;grid-template-columns:1fr 1fr;background:#eef4f6;padding:4px;border-radius:11px;margin:15px 0}.auth-tabs button{min-height:39px;border:0;border-radius:8px;background:transparent;color:var(--muted);font-weight:700}.auth-tabs button[aria-selected=true]{background:white;color:var(--navy);box-shadow:0 1px 5px #173b5018}.dialog-link{border:0;background:none;color:var(--blue);padding:7px 0;font-size:12px;text-decoration:underline}.mobile-bottom{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);padding:9px 14px calc(9px + env(safe-area-inset-bottom));z-index:3}.bottom-inner{max-width:760px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.bottom-inner span{font-size:11px;color:var(--muted)}.bottom-inner b{font-size:14px;color:var(--navy)}.toast{position:fixed;left:50%;bottom:86px;transform:translateX(-50%);background:#173b50;color:#fff;border-radius:10px;padding:11px 14px;font-size:12px;z-index:8;max-width:calc(100% - 28px);display:none}.toast.show{display:block}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(min-width:700px){main{padding-top:25px}.card{padding:19px}.hero h1{font-size:25px}}@media(max-width:370px){.row,.style-row{grid-template-columns:1fr}.head-actions{gap:1px}.head-actions .linkbtn{font-size:12px}.card{padding:13px}}
+</style>
+</head>
+<body>
+<header><div class="headrow">
+  <div class="brand"><span class="brandmark" aria-hidden="true">永</span><span>永護寧<small>居家服務督導工作台</small></span></div>
+  <div class="head-actions"><button class="linkbtn" id="suggestions">改善建議</button><button class="linkbtn" id="openLogin">登入</button></div>
+</div></header>
+<main>
+  <section class="hero">
+    <span class="eyebrow">VISIT RECORD WORKSPACE</span>
+    <h1>家訪／電訪紀錄撰寫</h1>
+    <p>依本次確認的內容逐步整理，產出後仍由督導檢查及修訂。</p>
+    <div class="login-state"><i class="dot"></i><span id="loginState">預覽模式｜尚未連接正式帳號</span><button class="linkbtn" id="logout" hidden>登出</button></div>
+  </section>
+  <div class="notice"><strong>個案資料安全提醒</strong>目前為功能預覽頁，未連正式登入、個案資料庫或安全雲端保存。請勿輸入真實個案資料、帳密或可識別訪視內容。</div>
+
+  <section class="card" aria-labelledby="step1">
+    <div class="step-title"><span class="step-no">01</span><div><h2 id="step1">基本資料</h2><p>先確認個案及訪視方式</p></div></div>
+    <div class="field"><label for="caseSelect">個案名稱</label><select id="caseSelect"><option value="">請選擇個案</option></select></div>
+    <div class="row">
+      <div class="field"><label for="newName">新增個案姓名</label><input id="newName" placeholder="輸入個案姓名" autocomplete="off"></div>
+      <div class="field"><label for="caseRef">區分代號（開案時填寫）</label><input id="caseRef" placeholder="請輸入機構個案代號" autocomplete="off"></div>
+    </div>
+    <div class="case-tools">
+      <div class="btnrow">
+        <button class="btn" id="addCase">新增個案</button>
+        <button class="btn secondary" id="csvButton">匯入 CSV 名單</button>
+        <button class="btn secondary" id="templateButton">下載範本</button>
+        <button class="btn danger" id="removeCase">移除個案</button>
+        <input id="csvFile" class="sr" type="file" accept=".csv,text/csv" aria-label="選擇 CSV 名單">
+      </div>
+      <p class="case-count">個案數量：<b id="caseCount">0</b> 位</p>
+      <span class="hint">此預覽頁不保存或上傳個案資料；建立、匯入及移除功能暫停，待正式權限與資料庫通過驗收。</span>
+    </div>
+    <div class="field">
+      <span class="label">訪視方式</span>
+      <div class="segmented"><button type="button" data-visit="家訪" aria-pressed="true">⌂ 家訪</button><button type="button" data-visit="電訪" aria-pressed="false">▣ 電訪</button></div>
+    </div>
+    <div class="field"><label for="visitDate">訪視日期</label><input id="visitDate" type="date"></div>
+    <div class="field"><span class="label">訪視對象（可複選）</span><div class="visit-target" id="participants">
+      <label class="target"><input type="checkbox" value="個案本人"><span>本人</span></label>
+      <label class="target"><input type="checkbox" value="家屬"><span>家屬</span></label>
+      <label class="target"><input type="checkbox" value="朋友"><span>朋友</span></label>
+      <label class="target"><input type="checkbox" value="鄰居"><span>鄰居</span></label>
+      <label class="target"><input type="checkbox" value="其他"><span>其他</span></label>
+    </div></div>
+  </section>
+
+  <section class="card" aria-labelledby="step2">
+    <div class="step-title"><span class="step-no">02</span><div><h2 id="step2">個案實際狀況</h2><p>只記本次已確認的事實；前次資料不會自動帶入</p></div></div>
+    <div class="question-meta"><span>請依本次訪視內容逐項檢視</span><span class="counter"><b id="selectedCount">0</b> 項已選</span></div>
+    <div class="step-actions"><button id="clearFacts">清除所有勾選</button><button id="openAll">展開／收合</button></div>
+    <div class="library-info"><b>句庫版本：</b>既有知識分類 1.0｜32 類；素材 1,420 筆為待審草案，非正式發布句庫。<br><b>個人句庫：</b>未連接（此頁不讀取外部或私有句庫）。</div>
+    <div id="accordionRoot"></div>
+    <div class="extra">
+      <h3>整體補充說明</h3>
+      <p class="small-note">輸入本次訪視已確認的內容。系統不會自行補寫病況、數字、家屬意見或已完成處置。</p>
+      <textarea id="extraNotes" maxlength="1000" placeholder="例如：本人表示近一週走路時右膝較痛，休息後減輕；未提到跌倒。"></textarea>
+      <div class="countline"><span>補充說明僅供本次預覽，不會自動修改已選事實。</span><span><b id="charCount">0</b> / 1,000 字</span></div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="step3">
+    <div class="step-title"><span class="step-no">03</span><div><h2 id="step3">紀錄產生與編輯</h2><p>先由已選事實組稿，再人工核對</p></div></div>
+    <div class="style-row">
+      <div class="field"><label for="length">紀錄篇幅</label><select id="length"><option value="normal">正常版</option><option value="short">簡易版</option><option value="detailed">詳細版</option></select></div>
+      <div class="field"><label for="tone">紀錄風格</label><select id="tone"><option value="natural">自然督導口吻</option><option value="plain">簡明白話</option></select></div>
+    </div>
+    <div class="btnrow">
+      <button class="btn" id="generate">產生紀錄</button>
+      <button class="btn secondary" id="rephrase">重新換句</button>
+      <button class="btn secondary" id="polish">AI 一鍵潤飾</button>
+    </div>
+    <div class="warning">生成前請確認個案、訪視日期、至少一位訪視對象，並選擇至少一項情境及輸入本次事實。缺少任一項時不會生成。</div>
+    <label class="consent"><input id="aiConsent" type="checkbox"><span>我同意將去識別化後文字送至外部 AI 服務潤飾（目前 AI 未連接，勾選不會傳送資料）</span></label>
+    <div id="recordStatus" class="record-status" role="status" aria-live="polite">尚未產生紀錄。輸出只使用這次手動輸入內容。</div>
+    <label class="label" for="recordEditor">紀錄內容（可人工修改）</label>
+    <textarea id="recordEditor" class="record-editor" maxlength="4000" placeholder="完成必要欄位後，點選「產生紀錄」。"></textarea>
+    <div class="btnrow"><button class="btn secondary" id="copyRecord">複製文字</button><button class="btn secondary" id="downloadRecord">下載文字檔</button><button class="btn secondary" id="saveDraft">暫存紀錄清單</button></div>
+    <div class="library-info">草稿只保留在目前頁面記憶體，離開或重整即消失；安全後端、登入、稽核歷程、正式保存、Word／PDF 尚未驗收。請勿將此預覽當正式紀錄使用。</div>
+    <p class="case-count">本次暫存筆數：<b id="draftCount">0</b> / 50</p>
+  </section>
+  <p class="hint" style="text-align:center;padding:7px 4px 0">影片操作預覽｜原站來源碼、登入 API 與私有句庫未取得，尚不能宣稱後端還原。</p>
+</main>
+<div class="mobile-bottom"><div class="bottom-inner"><span>家訪／電訪紀錄<br><b>預覽模式</b></span><button class="btn" id="bottomGenerate">產生紀錄</button></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog class="login-dialog" id="loginDialog">
+ <div class="dialog-inner">
+  <div class="dialog-title"><h2>永護寧工作台帳號</h2><button class="close" type="button" id="closeLogin" aria-label="關閉">×</button></div>
+  <div class="auth-tabs"><button id="tabLogin" aria-selected="true">登入</button><button id="tabRegister" aria-selected="false">註冊</button></div>
+  <form id="authForm">
+   <div class="field"><label for="email">會員 Email</label><input id="email" type="email" autocomplete="email" placeholder="請輸入 Email" required></div>
+   <div class="field"><label for="password">密碼</label><input id="password" type="password" autocomplete="current-password" placeholder="請輸入密碼" required minlength="8"></div>
+   <button class="btn" type="submit" style="width:100%">登入家電訪網站</button>
+  </form>
+  <button class="dialog-link" id="forgotPassword">忘記密碼？</button>
+  <div class="warning">登入／註冊畫面僅依錄影呈現互動樣式；正式身分驗證尚未接通。請勿輸入真實密碼。</div>
+ </div>
+</dialog>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+const categories=["身體狀況","睡眠","飲食","認知／情緒","日常生活","服務執行","個案反應","家屬支持","跌倒風險","環境安全","外出／就醫","照會／異動","特殊事件"];
+const state={visitType:"家訪",open:0,selected:new Set(),drafts:[],versions:[],text:"",rephrase:0,allOpen:false};
+const today=new Date();$("visitDate").value=[today.getFullYear(),String(today.getMonth()+1).padStart(2,"0"),String(today.getDate()).padStart(2,"0")].join("-");
+function toast(s){const el=$("toast");el.textContent=s;el.classList.add("show");clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove("show"),2600)}
+function safeAlert(s){window.alert(s)}
+function accordionMarkup(){const root=$("accordionRoot");root.replaceChildren();categories.forEach((name,i)=>{const box=document.createElement("section");box.className="accordion"+(state.open===i||state.allOpen?" open":"");box.dataset.index=i;
+const head=document.createElement("button");head.type="button";head.className="accordion-head";head.setAttribute("aria-expanded",String(box.classList.contains("open")));head.innerHTML="<span><strong></strong><small>請選擇本次已確認的狀況</small></span><span class='arrow' aria-hidden='true'>⌄</span>";head.querySelector("strong").textContent=name+"　"+(state.selected.has(name)?"✓":"未選");
+head.addEventListener("click",()=>{state.allOpen=false;state.open=box.classList.contains("open")?-1:i;accordionMarkup();});
+const body=document.createElement("div");body.className="accordion-body";
+const desc=document.createElement("p");desc.className="small-note";desc.textContent="勾選代表本次已檢視此項；請補上確認到的具體內容，沒有確認的細節不要自行推定。";
+const options=document.createElement("div");options.className="facts-options";
+["維持","改善","退步","新增需求","本次有事件"].forEach(label=>{const b=document.createElement("button");b.type="button";b.className="fact-option";b.textContent=label;b.setAttribute("aria-pressed",String(state.selected.has(name)));b.addEventListener("click",()=>{if(state.selected.has(name))state.selected.delete(name);else state.selected.add(name);state.open=i;accordionMarkup();$("selectedCount").textContent=String(state.selected.size);const ta=$("detail-"+i);if(ta){ta.focus({preventScroll:true});}});options.appendChild(b)});
+const label=document.createElement("label");label.className="label";label.htmlFor="detail-"+i;label.textContent="本次確認內容";
+const area=document.createElement("textarea");area.id="detail-"+i;area.rows=2;area.maxLength=600;area.placeholder="請輸入具體狀況；不確定時保留空白並由督導確認。";area.value=window.factDetails?.[i]||"";area.addEventListener("input",()=>{window.factDetails=window.factDetails||{};window.factDetails[i]=area.value});
+body.append(desc,options,label,area);box.append(head,body);root.appendChild(box);});$("selectedCount").textContent=String(state.selected.size)}
+accordionMarkup();
+document.querySelectorAll("[data-visit]").forEach(b=>b.addEventListener("click",()=>{state.visitType=b.dataset.visit;document.querySelectorAll("[data-visit]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));toast("訪視方式已切換為"+state.visitType+"；其他欄位已保留。")}));
+$("clearFacts").addEventListener("click",()=>{if(!state.selected.size&&!Object.values(window.factDetails||{}).some(Boolean)){toast("目前沒有已選情境");return}if(!confirm("要清除本次所有情境勾選及情境內容嗎？"))return;state.selected.clear();window.factDetails={};accordionMarkup();$("extraNotes").value="";$("charCount").textContent="0";$("recordEditor").value="";state.text="";$("recordStatus").textContent="已清除勾選及本次補充；未連接資料庫，無任何資料寫入。"});
+$("openAll").addEventListener("click",()=>{state.allOpen=!state.allOpen;state.open=-1;accordionMarkup();toast(state.allOpen?"已展開情境區塊":"已收合情境區塊")});
+$("extraNotes").addEventListener("input",e=>$("charCount").textContent=String(e.target.value.length));
+$("suggestions").addEventListener("click",()=>safeAlert("改善建議：此分支目前先還原影片可見操作；登入、17項正式模組、雲端保存與角色權限待以正式規格與受控環境驗收。"));
+$("openLogin").addEventListener("click",()=>$("loginDialog").showModal());
+$("closeLogin").addEventListener("click",()=>$("loginDialog").close());
+$("loginDialog").addEventListener("click",e=>{if(e.target===$("loginDialog"))$("loginDialog").close()});
+$("tabLogin").addEventListener("click",()=>{ $("tabLogin").setAttribute("aria-selected","true");$("tabRegister").setAttribute("aria-selected","false");$("authForm").querySelector("button[type=submit]").textContent="登入家電訪網站";$("password").autocomplete="current-password";});
+$("tabRegister").addEventListener("click",()=>{ $("tabLogin").setAttribute("aria-selected","false");$("tabRegister").setAttribute("aria-selected","true");$("authForm").querySelector("button[type=submit]").textContent="建立帳號";$("password").autocomplete="new-password";});
+$("forgotPassword").addEventListener("click",()=>toast("密碼重設尚未接上正式帳號服務。"));
+$("authForm").addEventListener("submit",e=>{e.preventDefault();toast("登入尚未連接；輸入內容不會送出或儲存。")});
+$("logout").addEventListener("click",()=>toast("目前未登入正式帳號。"));
+function participants(){return [...document.querySelectorAll("#participants input:checked")].map(x=>x.value)}
+function collectFacts(){const details=window.factDetails||{};return [...state.selected].map(name=>{const idx=categories.indexOf(name);return {name,text:(details[idx]||"").trim()}})}
+function generate(){const caseName=$("caseSelect").value,date=$("visitDate").value,targets=participants(),facts=collectFacts(),extra=$("extraNotes").value.trim();const missing=[];if(!caseName)missing.push("個案");if(!date)missing.push("訪視日期");if(!targets.length)missing.push("訪視對象");if(!facts.length)missing.push("至少一項情境");if(!facts.some(x=>x.text)||!extra)missing.push("本次確認內容");
+if(missing.length){$("recordStatus").className="record-status warn";$("recordStatus").textContent="尚不能生成，請補齊："+missing.join("、")+"。";$("recordEditor").focus({preventScroll:true});return}
+const lines=[];lines.push(date+"進行"+state.visitType+"，訪視對象為"+targets.join("、")+"。");facts.forEach(f=>{if(f.text)lines.push(f.name+"："+f.text.replace(/[。；;]+$/,"")+"。")});if(extra)lines.push(extra.replace(/[。；;]+$/,"")+"。");
+let output=lines.join("");if($("length").value==="short")output=lines.filter((_,i)=>i<3).join("");if($("length").value==="detailed")output=lines.join("");state.text=output;state.versions.push(output);state.rephrase=0;$("recordEditor").value=output;$("recordStatus").className="record-status ok";$("recordStatus").textContent="已依本次已輸入事實產生預覽。請逐句核對；此版本尚未保存至受控後端。";toast("紀錄預覽已產生")}
+$("generate").addEventListener("click",generate);$("bottomGenerate").addEventListener("click",()=>{generate();$("step3").scrollIntoView({behavior:"smooth",block:"start"})});
+$("rephrase").addEventListener("click",()=>{const text=$("recordEditor").value;if(!text.trim()){toast("請先產生紀錄");return}const prefix=[...state.selected].join("、");const intro=state.rephrase%2===0?"本次"+state.visitType+"紀錄（"+prefix+"）：":"訪視摘要（"+prefix+"）：";const body=state.versions.at(-1)||text;const next=intro+body.replace(/^(\d{4}-\d{2}-\d{2}進行[^。]*。)/,"");state.rephrase++;state.versions.push(next);$("recordEditor").value=next;state.text=next;$("recordStatus").textContent="已建立另一個表達版本；原已輸入事實仍保留在前一版本，可復原。";toast("已換用另一種開頭")});
+$("recordEditor").addEventListener("input",e=>state.text=e.target.value);
+$("polish").addEventListener("click",()=>{if(!$("aiConsent").checked){toast("請先閱讀並勾選 AI 潤飾同意");return}toast("AI 未接通，沒有任何文字送出；目前不會執行潤飾。")});
+$("copyRecord").addEventListener("click",async()=>{const t=$("recordEditor").value;if(!t){toast("目前沒有可複製的紀錄");return}try{await navigator.clipboard.writeText(t);toast("已複製紀錄文字")}catch{const a=$("recordEditor");a.focus();a.select();toast("請使用裝置的複製功能") }});
+$("downloadRecord").addEventListener("click",()=>{const t=$("recordEditor").value;if(!t){toast("目前沒有可下載的紀錄");return}const blob=new Blob([t],{type:"text/plain;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="家電訪紀錄預覽.txt";a.click();URL.revokeObjectURL(a.href);toast("已下載本機文字檔")});
+$("saveDraft").addEventListener("click",()=>{if(!$("recordEditor").value.trim()){toast("請先產生或輸入紀錄");return}if(state.drafts.length>=50){toast("本頁暫存已達50筆，請先匯出或清除");return}state.drafts.push({text:$("recordEditor").value,date:$("visitDate").value,type:state.visitType,at:new Date().toISOString()});$("draftCount").textContent=String(state.drafts.length);toast("已暫存於目前頁面記憶體；離開頁面會清除")});
+$("addCase").addEventListener("click",()=>toast("新增個案已鎖定；待登入權限與安全資料庫驗收後開放。"));
+$("csvButton").addEventListener("click",()=>toast("正式個案 CSV 匯入暫停；此預覽頁不讀取名冊檔案。"));
+$("templateButton").addEventListener("click",()=>{const csv="個案代號,個案姓名\r\n";const blob=new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="個案匯入欄位範本.csv";a.click();URL.revokeObjectURL(a.href);toast("已下載空白欄位範本（無個案資料）")});
+$("removeCase").addEventListener("click",()=>toast("目前沒有載入個案，移除功能未開放。"));
+</script>
+</body>
+</html>

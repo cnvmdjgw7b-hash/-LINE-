@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f9fc"><title>永護寧 AI 居督工作台｜測試介面</title>
+<style>
+:root{--ink:#172f40;--muted:#536575;--line:#d8e3eb;--blue:#145a73;--blue2:#e8f3f7;--paper:#fff;--bg:#f5f8fa;--amber:#805200;--amberbg:#fff4d9;--green:#24604c;--radius:15px}*{box-sizing:border-box}html{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:16px;color:var(--ink)}body{margin:0;background:var(--bg)}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:var(--blue)}:focus-visible{outline:3px solid #e69835;outline-offset:2px}.shell{min-height:100vh;display:grid;grid-template-columns:235px minmax(0,1fr)}aside{background:#14374a;color:#f5fbfc;padding:24px 15px}aside h1{font-size:1.22rem;line-height:1.5;margin:0 8px 10px}aside p{color:#c4dee9;font-size:.87rem;margin:0 8px 28px}.nav{display:grid;gap:8px}.nav button{width:100%;text-align:left;border:0;border-radius:11px;background:transparent;color:#dcebf1;padding:13px 15px}.nav button.active{background:#fff;color:#123a4d;font-weight:700}.top{display:flex;align-items:center;justify-content:space-between;gap:14px;border-bottom:1px solid var(--line);padding:19px 28px;background:#fff}.top strong{font-size:1.2rem}.pill{border-radius:999px;background:var(--amberbg);color:var(--amber);padding:7px 10px;font-size:.79rem;font-weight:700}.content{max-width:1300px;margin:0 auto;padding:25px 28px 80px}.title{font-size:1.5rem;margin:0 0 6px}.subtitle{color:var(--muted);margin:0 0 21px;line-height:1.65}.grid{display:grid;grid-template-columns:minmax(0,1.17fr) minmax(320px,.83fr);gap:18px}.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:18px;box-shadow:0 4px 18px #284b5a08}.card h2{font-size:1.13rem;margin:0 0 13px}.tip{border-left:4px solid #deaa45;background:#fff9ea;border-radius:9px;padding:11px 13px;margin:12px 0;color:#674900;font-size:.91rem;line-height:1.55}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}label{display:block;font-weight:650;font-size:.9rem;margin:12px 0 6px}input,select,textarea{width:100%;border:1px solid #aebfca;background:#fff;border-radius:9px;padding:11px 12px;min-height:44px;color:var(--ink)}textarea{min-height:105px;resize:vertical;line-height:1.7}small,.meta{color:var(--muted);font-size:.82rem;line-height:1.55}.chips{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0}.chip{border:1px solid #9cb6c2;background:#fff;border-radius:999px;padding:8px 11px;color:#234959;min-height:39px}.chip.selected{background:#145a73;color:#fff;border-color:#145a73}.btn{background:#145a73;color:#fff;border:1px solid #145a73;border-radius:10px;padding:11px 15px;min-height:46px;font-weight:700}.btn.alt{background:#fff;color:#145a73}.btn:disabled{background:#d5dce1;color:#71808b;border-color:#d5dce1;cursor:not-allowed}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.preview{white-space:pre-wrap;line-height:1.9;background:#f8fbfc;border:1px solid var(--line);border-radius:12px;padding:14px;min-height:120px}.badges{display:flex;gap:8px;flex-wrap:wrap}.count{font-size:1.5rem;font-weight:800;color:var(--blue)}.records{display:grid;gap:10px}.record{border:1px solid var(--line);border-radius:10px;padding:12px;background:#fff}.record p{margin:6px 0;color:var(--muted);line-height:1.55}.record strong{font-size:.95rem}.section{display:none}.section.active{display:block}.checkbox{display:flex;gap:9px;align-items:flex-start;font-weight:500;margin:12px 0}.checkbox input{width:auto;min-height:0;margin:5px 0 0}.footer{color:var(--muted);font-size:.82rem;line-height:1.65;margin-top:18px}.searchrow{display:grid;grid-template-columns:1fr 160px;gap:9px}.tag{font-size:.77rem;background:#edf2f5;color:#44606e;border-radius:8px;padding:4px 7px;margin-right:6px;display:inline-block}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{border:1px solid var(--line);border-radius:11px;padding:14px;background:#fff}.stat span{display:block;font-size:.8rem;color:var(--muted)}.list-info{margin:9px 0 14px;color:var(--muted);font-size:.9rem}.screenreader{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:900px){.shell{grid-template-columns:1fr}aside{padding:12px}.nav{display:flex;overflow-x:auto;gap:6px}.nav button{width:auto;white-space:nowrap;padding:10px 14px}aside h1{margin:3px 0;font-size:1.02rem}aside p{margin:0 0 6px}.content{padding:18px 14px 85px}.top{padding:14px}.top strong{font-size:1rem}.grid{grid-template-columns:1fr}.card{padding:16px}.two{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.title{font-size:1.3rem}.searchrow{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside><h1>永護寧 AI 居督工作台</h1><p>家訪／電訪｜功能測試版</p><nav class="nav" aria-label="工作台功能">
+<button class="active" data-screen="visit" aria-current="page">📝 家電訪紀錄</button><button data-screen="scenarios">🔎 情境知識庫</button><button data-screen="drafts">📂 暫存紀錄</button><button data-screen="quality">🛡️ 品質檢核</button>
+</nav></aside>
+<div><header class="top"><strong>居督工作台・測試環境</strong><span class="pill">僅限模擬資料</span></header>
+<main class="content">
+<section id="visit" class="section active">
+<h2 class="title">家訪／電訪紀錄</h2><p class="subtitle">以實際輸入的訪視資訊組合文字；未輸入的事實不會由系統猜測。請勿輸入真實個案資料。</p>
+<div class="grid"><div>
+<article class="card"><h2>① 訪視基本資料</h2>
+<div class="two"><div><label for="caseId">個案代碼（模擬）</label><input id="caseId" value="DEMO-001" maxlength="60" autocomplete="off"></div><div><label for="visitDate">訪視日期</label><input id="visitDate" type="date"></div></div>
+<div class="two"><div><label for="visitType">訪視方式</label><select id="visitType"><option value="家訪">家訪</option><option value="電訪">電訪</option></select></div><div><label for="visitTarget">受訪對象</label><select id="visitTarget"><option value="個案本人">個案本人</option><option value="案家屬">案家屬</option><option value="主要照顧者">主要照顧者</option><option value="居服員">居服員</option></select></div></div>
+<label for="visitSource">資料來源／確認方式</label><input id="visitSource" placeholder="例：現場詢問本人、電話聯繫案女" maxlength="120">
+</article>
+<article class="card"><h2>② 本次訪視事實</h2><p class="meta">可點選主題快速分類；下方仍須填寫當次確認的具體內容。</p>
+<div class="chips" id="topicChips" aria-label="訪視主題"></div>
+<label for="facts">本次已確認的實際情況（必填）</label><textarea id="facts" placeholder="例：案家屬表示個案近兩晚較難入睡；尚未確認原因。"></textarea>
+<label for="service">本次確認的服務執行情況（選填）</label><textarea id="service" placeholder="例：案家屬表示目前備餐服務按原定時間提供。"></textarea>
+<label for="risks">需追蹤事項（選填）</label><textarea id="risks" placeholder="例：持續確認睡眠狀況，必要時再聯繫家屬。"></textarea>
+</article>
+<article class="card"><h2>③ 處置與證據</h2><label for="actionText">實際處置／已聯繫事項</label><textarea id="actionText" placeholder="只有真正完成的聯繫、通報或安排才填寫在此。"></textarea>
+<label class="checkbox"><input id="actionConfirmed" type="checkbox"><span>我已核對上述處置確實完成，並有相應紀錄或證據</span></label>
+<div class="tip">未勾選「已確認」時，系統不會把處置寫成已完成；建議與追蹤事項分開呈現。</div>
+</article>
+</div>
+<div>
+<article class="card"><h2>④ 紀錄產生與人工核對</h2>
+<label for="recordStyle">輸出版本</label><select id="recordStyle"><option value="normal">正常版</option><option value="short">簡易版</option><option value="detailed">詳細版</option></select>
+<div class="actions"><button class="btn" id="generateBtn">產生訪視紀錄</button><button class="btn alt" id="resetBtn">清空</button></div>
+<p class="list-info" id="generationStatus" role="status" aria-live="polite">請先填寫本次事實，再產生紀錄。</p><div id="preview" class="preview" aria-label="紀錄預覽">尚未產生紀錄</div>
+<label for="recordEditor">人工修訂（送出前必須檢查）</label><textarea id="recordEditor" placeholder="生成後可在此直接修改內容。" style="min-height:190px"></textarea>
+<label class="checkbox"><input id="humanApproved" type="checkbox"><span>我已逐句核對，內容僅包含已確認的本次事實及正確處置狀態</span></label>
+<div class="actions"><button class="btn" id="saveDraftBtn">暫存到本次瀏覽</button><button class="btn alt" id="copyBtn">複製紀錄</button></div>
+<div class="tip">本頁不連正式個案資料庫、不代表機構正式紀錄。測試版暫存僅存在此分頁記憶體，重新整理後即消失。</div>
+</article>
+</div></div></section>
+<section id="scenarios" class="section">
+<h2 class="title">情境知識庫</h2><p class="subtitle">檢索既有1,420筆待審情境，僅供模擬與督導知識整理；不會自動寫入正式訪視事實。</p>
+<article class="card"><div class="stats"><div class="stat"><span>題庫規劃</span><div class="count">1,420</div></div><div class="stat"><span>已載入筆數</span><div class="count" id="loadedCount">0</div></div><div class="stat"><span>正式可用</span><div class="count">0</div></div></div>
+<div class="tip" id="dataStatus" role="status">待載入情境資料。若在 GitHub Pages 預覽，需確保知識庫 JSON 與網站同目錄部署。</div>
+<div class="actions"><button id="loadScenarios" class="btn">載入情境庫</button></div>
+<div class="searchrow"><div><label for="scenarioSearch">關鍵字搜尋</label><input id="scenarioSearch" placeholder="例如：睡眠、跌倒、家屬衝突" maxlength="80"></div><div><label for="domainFilter">情境領域</label><select id="domainFilter"><option value="">全部領域</option></select></div></div>
+<p class="list-info" id="searchStatus" aria-live="polite">尚未載入</p><div id="scenarioList" class="records"></div>
+</article></section>
+<section id="drafts" class="section"><h2 class="title">暫存紀錄</h2><p class="subtitle">最多50筆，僅存在本頁分頁記憶體。不得視為正式保存。</p><article class="card"><p id="draftStatus" role="status">目前 0 筆暫存。</p><div id="draftList" class="records"></div><div class="actions"><button class="btn alt" id="clearDrafts">清除本頁所有暫存</button></div></article></section>
+<section id="quality" class="section"><h2 class="title">品質與上線條件</h2><p class="subtitle">參照既有 GitHub 資料模型：個案唯一主檔、事件中心、事實與建議分層。</p>
+<article class="card"><h2>目前驗收狀態</h2><div class="records"><div class="record"><strong>🟠 1,420筆情境仍待逐題驗收</strong><p>原始草案不能直接標記 approved；相似情境需語意去重。</p></div><div class="record"><strong>🟠 BA／GA／SC碼別版本驗證</strong><p>碼別不能由本展示頁推定，需對照服務適用日期與正式核定來源。</p></div><div class="record"><strong>🔒 正式紀錄保存功能未開放</strong><p>尚未串接身分驗證、角色權限、資料庫、稽核軌跡及備份；請勿上傳真實個案個資。</p></div><div class="record"><strong>✅ 本頁防錯機制</strong><p>來源、日期、本次事實分開填；處置需明確確認；輸出必須人工核對；草案與正式紀錄隔離。</p></div></div></article>
+</section>
+<p class="footer">永護寧｜前端功能測試版。此介面使用假設資料；尚未啟用正式資料寫入、帳號權限、雲端儲存或 AI 生成模型。</p>
+</main></div></div>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+const topics=["身體狀況","睡眠","飲食","認知／情緒","日常生活","服務執行","個案反應","家屬支持","跌倒風險","環境安全","外出／就醫","照會／異動","後續追蹤"];
+const selectedTopics=new Set(),drafts=[];let scenarios=[];
+const today=new Date();const yyyy=today.getFullYear(),mm=String(today.getMonth()+1).padStart(2,"0"),dd=String(today.getDate()).padStart(2,"0");$("visitDate").value=yyyy+"-"+mm+"-"+dd;
+function setScreen(id){for(const el of document.querySelectorAll(".section"))el.classList.toggle("active",el.id===id);for(const btn of document.querySelectorAll(".nav button")){const active=btn.dataset.screen===id;btn.classList.toggle("active",active);if(active)btn.setAttribute("aria-current","page");else btn.removeAttribute("aria-current");}window.scrollTo({top:0,behavior:"auto"})}
+document.querySelectorAll(".nav button").forEach(btn=>btn.addEventListener("click",()=>setScreen(btn.dataset.screen)));
+const chips=$("topicChips");topics.forEach(t=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=t;b.setAttribute("aria-pressed","false");b.addEventListener("click",()=>{if(selectedTopics.has(t))selectedTopics.delete(t);else selectedTopics.add(t);b.classList.toggle("selected",selectedTopics.has(t));b.setAttribute("aria-pressed",String(selectedTopics.has(t)));});chips.appendChild(b)});
+function norm(s){return String(s||"").trim().replace(/\s+/g," ")}
+function makeRecord(){const id=norm($("caseId").value),date=$("visitDate").value,source=norm($("visitSource").value),fact=norm($("facts").value),service=norm($("service").value),risk=norm($("risks").value),action=norm($("actionText").value);if(!id||!date||!fact){$("generationStatus").textContent="請填寫個案代碼、訪視日期及本次已確認的實際情況。";return null}if(!source){$("generationStatus").textContent="請填寫資料來源／確認方式，避免缺乏訪視事實來源。";return null}
+const intro=date+"進行"+$("visitType").value+"，訪視對象為"+$("visitTarget").value+"，資料來源："+source+"。";
+const facts="本次了解："+fact.replace(/[。；;]+$/,"")+"。";
+const srv=service?"服務情形："+service.replace(/[。；;]+$/,"")+"。":"";
+const done=action&&$("actionConfirmed").checked?"已確認處置："+action.replace(/[。；;]+$/,"")+"。":"";
+const suggested=action&&!$("actionConfirmed").checked?"待核對處置（不可視為已完成）："+action.replace(/[。；;]+$/,"")+"。":"";
+const follow=risk?"後續追蹤："+risk.replace(/[。；;]+$/,"")+"。":"";
+const tag=selectedTopics.size?"本次關注："+[...selectedTopics].join("、")+"。":"";
+const style=$("recordStyle").value;
+if(style==="short")return [intro,facts,srv,done,suggested,follow].filter(Boolean).join("");
+if(style==="detailed")return [intro,tag,facts,srv,done,suggested,follow,"紀錄以本次已確認內容為準，未確認事項不得寫為已完成。"].filter(Boolean).join("\n");
+return [intro,facts,srv,done,suggested,follow].filter(Boolean).join("");
+}
+$("generateBtn").addEventListener("click",()=>{const s=makeRecord();if(s===null)return;$("preview").textContent=s;$("recordEditor").value=s;$("humanApproved").checked=false;$("generationStatus").textContent="已產生規則式紀錄草稿；請逐句人工核對後再暫存。"});
+$("resetBtn").addEventListener("click",()=>{for(const id of ["facts","service","risks","actionText","recordEditor"])$(id).value="";$("actionConfirmed").checked=false;$("humanApproved").checked=false;$("preview").textContent="尚未產生紀錄";$("generationStatus").textContent="已清空本次輸入（基本資料保留）。";selectedTopics.clear();chips.querySelectorAll("button").forEach(b=>{b.classList.remove("selected");b.setAttribute("aria-pressed","false")})});
+function renderDrafts(){const out=$("draftList");out.replaceChildren();$("draftStatus").textContent="目前 "+drafts.length+" 筆暫存（上限50筆，重新整理即消失）。";drafts.forEach((d,i)=>{const box=document.createElement("div");box.className="record";const strong=document.createElement("strong");strong.textContent=d.caseId+"｜"+d.date+"｜"+d.type;const p=document.createElement("p");p.textContent=d.text;const btn=document.createElement("button");btn.className="btn alt";btn.textContent="刪除此筆";btn.addEventListener("click",()=>{drafts.splice(i,1);renderDrafts()});box.append(strong,p,btn);out.append(box)})}
+$("saveDraftBtn").addEventListener("click",()=>{if(!$("humanApproved").checked){$("generationStatus").textContent="請先完成人工核對並勾選確認，才能暫存。";return}const val=norm($("recordEditor").value);if(!val){$("generationStatus").textContent="沒有可暫存的紀錄。";return}if(drafts.length>=50){$("generationStatus").textContent="已達50筆暫存上限，請先刪除部分紀錄。";return}const id=norm($("caseId").value),date=$("visitDate").value;if(!id||!date){$("generationStatus").textContent="個案代碼與日期不可空白。";return}if(drafts.some(d=>d.caseId===id&&d.date===date&&d.type===$("visitType").value)){if(!confirm("同一模擬個案、日期及訪視方式已有暫存，仍要新增嗎？"))return}drafts.push({caseId:id,date,type:$("visitType").value,text:val});renderDrafts();$("humanApproved").checked=false;$("generationStatus").textContent="已暫存在本頁記憶體（非正式資料庫）。"});
+$("copyBtn").addEventListener("click",async()=>{const s=$("recordEditor").value;if(!norm(s)){ $("generationStatus").textContent="沒有可複製的紀錄。";return }try{await navigator.clipboard.writeText(s);$("generationStatus").textContent="已複製紀錄，請注意資料保密。"}catch{$("generationStatus").textContent="瀏覽器禁止自動複製；請直接選取文字複製。"}});
+$("clearDrafts").addEventListener("click",()=>{if(drafts.length&&confirm("確定清除本頁全部暫存？")){drafts.length=0;renderDrafts()}});
+function el(tag,content,cls){const x=document.createElement(tag);x.textContent=content;if(cls)x.className=cls;return x}
+async function loadData(){$("dataStatus").textContent="正在讀取四份情境資料…";$("loadScenarios").disabled=true;try{const paths=[1,2,3,4].map(n=>"knowledge/scenario-review-1420/part-"+String(n).padStart(2,"0")+".json");const results=await Promise.all(paths.map(async p=>{const r=await fetch(p,{cache:"no-store"});if(!r.ok)throw new Error(p+" HTTP "+r.status);const j=await r.json();if(!Array.isArray(j.scenarios))throw new Error("資料格式錯誤："+p);return j.scenarios}));const all=results.flat();if(all.length!==1420)throw new Error("資料筆數異常："+all.length+"（預期1420）");if(new Set(all.map(x=>x.id)).size!==all.length)throw new Error("資料ID重複");scenarios=all;$("loadedCount").textContent=String(all.length);$("dataStatus").textContent="已載入1,420筆草案，可供測試搜尋；0筆被視為已正式核准。";const sel=$("domainFilter");sel.replaceChildren(new Option("全部領域",""));[...new Set(all.map(x=>x.domain).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"zh-Hant")).forEach(d=>sel.appendChild(new Option(d,d)));renderSearch()}catch(err){$("dataStatus").textContent="載入失敗："+err.message+"。可透過具有相同路徑的靜態網站伺服器開啟，或部署 GitHub Pages。";$("searchStatus").textContent="尚無資料；請確認檔案路徑。"}finally{$("loadScenarios").disabled=false}}
+function renderSearch(){const q=norm($("scenarioSearch").value).toLowerCase(),domain=$("domainFilter").value;const match=scenarios.filter(x=>(!domain||x.domain===domain)&&(!q||[x.title,x.domain,x.scenario,...(x.risk_tags||[])].join(" ").toLowerCase().includes(q)));$("searchStatus").textContent="符合 "+match.length+" 筆；僅顯示前30筆以維持手機操作流暢。";const list=$("scenarioList");list.replaceChildren();for(const s of match.slice(0,30)){const box=el("div","","record"),head=el("strong",s.title+"（"+s.id+"）"),p=el("p",s.scenario||"");const tag=el("span",s.domain||"未分類","tag"),status=el("span","待審草案・不可直接套用","tag");box.append(head,p,tag,status);list.appendChild(box)}}
+$("loadScenarios").addEventListener("click",loadData);$("scenarioSearch").addEventListener("input",renderSearch);$("domainFilter").addEventListener("change",renderSearch);renderDrafts();
+</script></body></html>

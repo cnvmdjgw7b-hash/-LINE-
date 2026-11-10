@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>永護寧家電訪與服務稽核整合台</title><link rel="stylesheet" href="style.css">
+<header><div class="brand"><span aria-hidden="true">永</span><div>永護寧<small>居家服務督導工作台</small></div></div><span class="badge">私人測試版 · 1.0</span></header>
+<main><section class="hero"><div><p>督導日常作業</p><h1>家電訪與服務稽核整合台</h1><p>匯入來源、逐筆核對，保留每次修正與確認。</p></div><button id="sample">載入虛構測試資料</button></section>
+<nav aria-label="工作區"><button data-tab="audit" aria-current="page">服務稽核</button><button data-tab="visit">家電訪與照會</button><button data-tab="sources">來源與版本</button></nav>
+<p id="message" role="status"></p>
+<section id="workflow"><div class="stats" id="stats"></div>
+<details class="panel" id="entry" open><summary>匯入資料或新增紀錄</summary>
+<form id="import">
+<div class="grid"><label>資料來源<select id="kind"></select></label><label>來源版本 <small>可填檔案版本或資料截止日</small><input id="version" placeholder="例：115/11/08 定稿"></label><label>手動輸入來源名稱<input id="source" placeholder="例：督導交班紀錄"></label><label>選擇檔案 <small>CSV、TSV、XLSX、TXT 或照片</small><input id="files" type="file" multiple accept=".csv,.tsv,.xlsx,.txt,image/*"></label></div>
+<label>貼上表格、OCR 文字或原始紀錄<textarea id="paste" rows="3" placeholder="可從 Excel 或工作表複製含欄名的資料"></textarea></label>
+<div class="actions"><button type="submit" class="primary">匯入並核對</button><button type="button" id="manual">新增單筆文字紀錄</button><button type="button" id="template">下載欄位範本</button></div>
+</form></details>
+<section class="panel results"><div class="title"><div><h2 id="resultTitle"></h2><p id="shown"></p></div><div class="actions"><button id="copy">複製工作表格式</button><button id="export">下載 TSV</button></div></div>
+<div class="grid filters"><label>搜尋個案、居服員、督導或 BA 碼<input id="search" type="search" placeholder="輸入關鍵字"></label><label>月份<select id="month"></select></label><label>狀態<select id="status"><option value="">全部</option><option value="open">有疑義／待人工確認</option><option value="approved">已人工確認</option><option value="clear">比對相符／欄位齊全</option></select></label><label>來源／類型<select id="filterType"></select></label></div>
+<div id="counts"></div><div id="list"></div></section></section>
+<section id="sources" hidden class="panel"><h2>來源與版本</h2><p>測試資料保存在目前瀏覽器，照片也存於本機。工作表來源僅供查閱和欄位對照。</p><div id="refs"></div><h3>匯入批次</h3><div id="batches"></div><h3>版本與人工修正紀錄</h3><div id="logs"></div></section>
+</main>
+<dialog id="editor"><form id="edit"><div class="title"><h2 id="editTitle">人工檢核</h2><button type="button" id="close" aria-label="關閉">關閉</button></div><div id="evidence"></div><div class="grid" id="editFields"></div><details id="moduleBox"><summary>家電訪模組與情境提醒</summary><div id="modules"></div><p id="hints"></p></details><p id="editMessage" role="status"></p><div class="actions"><button type="submit" value="save">儲存修正</button><button type="submit" value="approve" class="primary">確認本筆</button></div></form></dialog>
+<script type="module" src="app.mjs"></script>
+</html>

@@ -18,5 +18,13 @@
     "knowledge/scenario-review-1420/part-02.json",
     "knowledge/scenario-review-1420/part-03.json",
     "knowledge/scenario-review-1420/part-04.json"
-  ]
+  ],
+  "formalization": {
+    "requested_by": "機構主管",
+    "requested_at": "2026-11-10",
+    "decision": "待逐題專業驗收後分批轉正式",
+    "quality_audit_path": "knowledge/scenario-review-1420/quality-audit-20261110.json",
+    "activation_rule": "只有review_status=approved、專業審查者與日期齊全、碼別已核對、語意去重通過，才能匯入正式資料庫",
+    "current_activation_allowed": false
+  }
 }

@@ -1,0 +1,93 @@
+{
+  "audit_date": "2026-11-10",
+  "source": "main knowledge/scenario-review-1420",
+  "total": 1420,
+  "unique_ids": 1420,
+  "unique_titles": 1404,
+  "duplicate_title_groups": 16,
+  "duplicate_title_excess": 16,
+  "duplicate_titles": [
+    [
+      "食慾下降｜例行家訪",
+      2
+    ],
+    [
+      "食慾下降｜家屬電訪",
+      2
+    ],
+    [
+      "食慾下降｜居服回報",
+      2
+    ],
+    [
+      "食慾下降｜獨居風險",
+      2
+    ],
+    [
+      "食慾下降｜認知落差",
+      2
+    ],
+    [
+      "食慾下降｜異動期間",
+      2
+    ],
+    [
+      "食慾下降｜出院返家",
+      2
+    ],
+    [
+      "食慾下降｜意願衝突",
+      2
+    ],
+    [
+      "指控偷錢｜例行家訪",
+      2
+    ],
+    [
+      "指控偷錢｜家屬電訪",
+      2
+    ],
+    [
+      "指控偷錢｜居服回報",
+      2
+    ],
+    [
+      "指控偷錢｜獨居風險",
+      2
+    ],
+    [
+      "指控偷錢｜認知落差",
+      2
+    ],
+    [
+      "指控偷錢｜異動期間",
+      2
+    ],
+    [
+      "指控偷錢｜出院返家",
+      2
+    ],
+    [
+      "指控偷錢｜意願衝突",
+      2
+    ]
+  ],
+  "exact_source_context_duplicate_groups": 0,
+  "covered_domains": 18,
+  "category_count_expected": 32,
+  "uncovered_domain_check": "需人工確認：目前草案只含既有17種核心種子領域與碼別類別，不足以宣稱32領域均完整涵蓋",
+  "code_validation_pending": 60,
+  "quality_gate": {
+    "content_review": "not_passed",
+    "semantic_uniqueness": "not_passed",
+    "code_validation": "not_passed",
+    "domain_coverage": "not_passed",
+    "human_supervisor_review": "not_passed",
+    "formal_activation_allowed": false
+  },
+  "notes": [
+    "170種種子各乘8訪視脈絡，不等於1360種不同事件；同事件更換脈絡可能有檢索價值，但不能據此宣稱不同情境。",
+    "標題相同不必然內容重複；標題不同也不必然語意獨立。",
+    "碼別與正式給付依據未經版本核對，不能轉為正式有效。"
+  ]
+}

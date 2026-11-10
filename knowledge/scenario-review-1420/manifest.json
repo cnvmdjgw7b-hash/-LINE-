@@ -1,0 +1,22 @@
+{
+  "version": "draft-2026-11-10",
+  "status": "draft_unreviewed",
+  "count": 1420,
+  "existing_seed_count": 170,
+  "method": "170 existing event seeds x 8 visit contexts = 1360; BA01–BA24 x 2 = 48; GA01–GA06 and SC01–SC06 x 1 = 12",
+  "code_note": "GA/SC indices require official version validation; unverified codes must not be activated",
+  "review_requirements": [
+    "逐題台灣居督實務審核",
+    "語意去重（不能只以標題不同視為獨立題）",
+    "17勾選類別與32風險領域覆蓋檢查",
+    "核定碼別與日期版本檢查",
+    "三版本紀錄及不虛構事實測試"
+  ],
+  "scope": "測試草案，不是已驗收的1420有效題；不含個資；未部署正式資料庫",
+  "files": [
+    "knowledge/scenario-review-1420/part-01.json",
+    "knowledge/scenario-review-1420/part-02.json",
+    "knowledge/scenario-review-1420/part-03.json",
+    "knowledge/scenario-review-1420/part-04.json"
+  ]
+}

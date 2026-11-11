@@ -49,8 +49,26 @@
 
 ## 回滾
 
-本工作全部位於 feature/video-visit-workbench-v1；不合併、不部署即可回到原狀。若合併後需回滾，以反向提交移除本分支新增檔案及入口，不刪除原工作台資料。
+GitHub UI 與文件變更位於 `feature/video-visit-workbench-v1`；Hatchable V12 草稿另新增 3 個檔案，尚未部署。部署前可直接移除這 3 個草稿檔回復；目前 V12 live version 仍是 8。
 
 ## 驗收範圍
 
-本次先完成可見介面與本機互動；登入認證、後端保存、權限隔離、正式匯入、備份還原、API、AI 及實機 iOS Safari／Windows 實測須以可核驗的受控環境驗收，不以此預覽頁宣稱通過。
+本次先完成可見介面與本機互動；登入認證、後端保存、權限隔離、正式匯入、備份還原、AI 及實機 iOS Safari／Windows 實測須以可核驗的受控環境驗收，不以此預覽頁宣稱通過。影片工作台已另行複製至 Hatchable V12 專案草稿路徑 `public/video-visit/index.html`，尚未部署。
+
+## GitHub 資料模型與 V12 主檔整合（2026-11-11）
+
+GitHub 私有儲存庫 `cnvmdjgw7b-hash/-_2026` 的 PostgreSQL schema 是尚未部署的設計草案，檢視時沒有可合併的個案資料列。GitHub 儲存庫保留程式與文件；不作為個案資料庫，也不放真實個案資料。
+
+| GitHub 概念 | V12 唯一資料主檔對應 | 決定 |
+|---|---|---|
+| `organizations` | 目前無直接對應 | 現階段單一機構，不另建重複組織表 |
+| `app_users` | Hatchable 專案協作者 + `yhn_access_roles` | 沿用平台身分與 V12 角色，不搬 GitHub 使用者表 |
+| `clients` | `yhn_clients` + `yhn_client_identity_keys` | 個案主檔仍只存 V12 |
+| `care_plans` | `yhn_care_plans` | 延用 V12 照顧計畫版本 |
+| `visit_records` | `yhn_visits` + `yhn_visit_versions` | 延用 V12 訪視與版本紀錄 |
+| `audit_log` | `yhn_audit_log` | 延用 V12 稽核軌跡 |
+| GitHub 未包含 | `yhn_import_batches` | 沿用 V12 匯入預覽批次，不建立第二套 |
+
+V12 草稿新增 `yhn_case_access` 範圍表與唯讀 `/api/v12/case-directory`：director 角色可讀取名單；supervisor／reviewer 僅讀取明確授權的個案；權限預設關閉，回應不快取並留下稽核紀錄。影片頁只取得受控名單；個案新增、匯入、刪除、紀錄保存與 AI 傳輸仍關閉。
+
+這些變更目前只保存為 Hatchable 草稿；dry-run 通過，沒有部署、沒有匯入個案，也沒有改動 V12 live version 8。正式部署前仍需完成角色啟用方式與個案授權管理流程，並驗收未授權拒絕、授權範圍及稽核結果。
